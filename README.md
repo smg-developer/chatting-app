@@ -1,16 +1,11 @@
-# chatting_app
+# Chatting App
 
-A new Flutter project.
+Chatting app made using flutter.
 
-## Getting Started
+## Details
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- Provides option of creating account and logging into it.
+- Uses Firebase and Firestore for user information and state management.
+- Users StreamBuilder for tracking logged in user details and new chat messages
+- Push notification added for Android devices
+- Demonstrates simple group chat app
